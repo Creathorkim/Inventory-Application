@@ -1,7 +1,7 @@
 {
   "name": "inventory-application",
   "version": "1.0.0",
-  "description": "",
+  "description": "A full-stack Inventory Management Application built with **Node.js**, **Express.js**, **PostgreSQL**, **EJS**, and **Tailwind CSS (CDN)**.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Creathorkim/Inventory-Application#readme",
   "dependencies": {
     "dotenv": "^17.2.0",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
     "pg": "^8.16.3"
