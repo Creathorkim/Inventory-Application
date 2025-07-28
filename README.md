@@ -2,7 +2,7 @@
 
 A full-stack Inventory Management Application built with **Node.js**, **Express.js**, **PostgreSQL**, **EJS**, and **Tailwind CSS (CDN)**.
 
-## ** About the Project**
+## **About the Project**
 
 This project is a CRUD-based inventory app that allows users to manage **Categories** and their associated **Items**. Users can:
 
@@ -13,7 +13,7 @@ This project is a CRUD-based inventory app that allows users to manage **Categor
 - Navigate with ease on mobile (with a working **hamburger menu**).
 - Enjoy a clean separation of concerns using the **MVC architecture**.
 
-## ** What I Learned**
+## **What I Learned**
 
 - Setting up a **PostgreSQL** database with table relationships and constraints.
 - Writing raw **SQL queries** for reading, inserting, updating, and deleting data.
@@ -24,7 +24,7 @@ This project is a CRUD-based inventory app that allows users to manage **Categor
 - Making the UI responsive with **Tailwind CDN**.
 - Deploying a dynamic app with a live database to **Render** and **GitHub**.
 
-## ** Tech Stack**
+## **Tech Stack**
 
 - **Backend:** Node.js, Express.js
 - **Database:** PostgreSQL
@@ -32,7 +32,7 @@ This project is a CRUD-based inventory app that allows users to manage **Categor
 - **Styling:** Tailwind CSS (via CDN)
 - **Deployment:** Render (for server and database), GitHub
 
-## ** Features**
+## **Features**
 
 - Category & Item Management (CRUD)
 - Admin Password Protection for Edit/Delete
@@ -41,7 +41,7 @@ This project is a CRUD-based inventory app that allows users to manage **Categor
 - Dummy data seeding with SQL
 - MVC architecture and modular codebase
 
-## ** Database Structure**
+## **Database Structure**
 
 - **Category Table**
   - id (PK)
