@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Edit Item</title>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-stone-950 text-gray-100 min-h-screen flex items-center justify-center p-5"
+  >
+    <div
+      class="rounded-lg shadow-lg bg-gray-600 p-8 w-full max-w-md md:max-w-3xl"
+    >
+      <h2 class="text-purple-400 text-3xl font-bold text-center mb-8">Edit</h2>
+      <form method="post">
+        <div class="mb-2">
+          <label for="name" class="block text-sm font-medium text-gray-300 mb-2"
+            >Name</label
+          >
+          <input
+            type="text"
+            name="name"
+            class="w-full bg-gray-700 rounded-md focus:ring-4 focus:ring-purple-500 shadow-lg p-3"
+            value="<%= data.name%>"
+          />
+        </div>
+        <div class="mb-2">
+          <label
+            for="description"
+            class="block text-sm font-medium text-gray-300 mb-2"
+            >Description</label
+          >
+          <textarea
+            type="text"
+            name="description"
+            class="p-3 w-full bg-gray-700 rounded-md focus:ring-4 focus:ring-purple-500 shadow-lg"
+          >
+            <%= data.description %></textarea
+          >
+        </div>
+        <div class="mb-2">
+          <label
+            for="price"
+            class="block text-sm font-medium text-gray-300 mb-2"
+            >Price</label
+          >
+          <input
+            type="number"
+            name="price"
+            class="bg-gray-700 p-3 rounded-md focus:ring-4 focus:ring-purple-500 shadow-lg w-full"
+            required
+            value="<%= data.price %>"
+          />
+        </div>
+        <button class="p-3 bg-purple-400 w-full rounded-md hover:bg-purple-600">
+          Resubmit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
